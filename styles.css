@@ -1,0 +1,209 @@
+nav{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+}
+
+#navbarNavAltMarkup{
+    justify-content: end;
+}
+
+.nav-link{
+    padding-left: 40px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-transparent{
+    background-color: rgba(33,37,41,1);
+    transition: background-color 0.2s linear;
+    opacity: 0.75;
+}
+
+#home, #about, #project, #contact{
+    padding: 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#home, #project{
+    background-color: black;
+}
+
+#about, #contact{
+    background-color: #fff;
+}
+
+@keyframes breathinghome{
+    0% {background-image: linear-gradient(rgb(0,0,0,0.97), rgb(0,0,0,0.97)), url(wallpaper.jpg);}
+    2.5%{background-image: linear-gradient(rgb(0,0,0,0.9415), rgb(0,0,0,0.9415)), url(wallpaper.jpg);}
+    5% {background-image: linear-gradient(rgb(0,0,0,0.913), rgb(0,0,0,0.913)), url(wallpaper.jpg);}
+    7.5%{background-image: linear-gradient(rgb(0,0,0,0.8845), rgb(0,0,0,0.8845)), url(wallpaper.jpg);}
+    10% {background-image: linear-gradient(rgb(0,0,0,0.846), rgb(0,0,0,0.846)), url(wallpaper.jpg);}
+    12.5%{background-image: linear-gradient(rgb(0,0,0,0.8175), rgb(0,0,0,0.8175)), url(wallpaper.jpg);}
+    15%{background-image: linear-gradient(rgb(0,0,0,0.789), rgb(0,0,0,0.789)), url(wallpaper.jpg);}
+    17.5%{background-image: linear-gradient(rgb(0,0,0,0.7605), rgb(0,0,0,0.7605)), url(wallpaper.jpg);}
+    20% {background-image: linear-gradient(rgb(0,0,0,0.732), rgb(0,0,0,0.732)), url(wallpaper.jpg);}
+    22.5%{background-image: linear-gradient(rgb(0,0,0,0.7035), rgb(0,0,0,0.7035)), url(wallpaper.jpg);}
+    25%{background-image: linear-gradient(rgb(0,0,0,0.675), rgb(0,0,0,0.675)), url(wallpaper.jpg);}
+    27.5%{background-image: linear-gradient(rgb(0,0,0,0.6465), rgb(0,0,0,0.6465)), url(wallpaper.jpg);}
+    30% {background-image: linear-gradient(rgb(0,0,0,0.618), rgb(0,0,0,0.618)), url(wallpaper.jpg);}
+    32.5%{background-image: linear-gradient(rgb(0,0,0,0.5895), rgb(0,0,0,0.5895)), url(wallpaper.jpg);}
+    35%{background-image: linear-gradient(rgb(0,0,0,0.561), rgb(0,0,0,0.561)), url(wallpaper.jpg);}
+    37.5%{background-image: linear-gradient(rgb(0,0,0,0.5325), rgb(0,0,0,0.5325)), url(wallpaper.jpg);}
+    40% {background-image: linear-gradient(rgb(0,0,0,0.504), rgb(0,0,0,0.504)), url(wallpaper.jpg);}
+    42.5%{background-image: linear-gradient(rgb(0,0,0,0.4755), rgb(0,0,0,0.4755)), url(wallpaper.jpg);}
+    45%{background-image: linear-gradient(rgb(0,0,0,0.447), rgb(0,0,0,0.447)), url(wallpaper.jpg);}
+    47.5%{background-image: linear-gradient(rgb(0,0,0,0.4185), rgb(0,0,0,0.4185)), url(wallpaper.jpg);}
+    50% {background-image: linear-gradient(rgb(0,0,0,0.39), rgb(0,0,0,0.39)), url(wallpaper.jpg);}
+    52.5%{background-image: linear-gradient(rgb(0,0,0,0.39), rgb(0,0,0,0.39)), url(wallpaper.jpg);}
+    55%{background-image: linear-gradient(rgb(0,0,0,0.4185), rgb(0,0,0,0.4185)), url(wallpaper.jpg);}
+    57.5%{background-image: linear-gradient(rgb(0,0,0,0.447), rgb(0,0,0,0.447)), url(wallpaper.jpg);}
+    60%{background-image: linear-gradient(rgb(0,0,0,0.4755), rgb(0,0,0,0.4755)), url(wallpaper.jpg);}
+    62.5%{background-image: linear-gradient(rgb(0,0,0,0.504), rgb(0,0,0,0.504)), url(wallpaper.jpg);}
+    65%{background-image: linear-gradient(rgb(0,0,0,0.5325), rgb(0,0,0,0.5325)), url(wallpaper.jpg);}
+    67.5%{background-image: linear-gradient(rgb(0,0,0,0.561), rgb(0,0,0,0.561)), url(wallpaper.jpg);}
+    70%{background-image: linear-gradient(rgb(0,0,0,0.5895), rgb(0,0,0,0.5895)), url(wallpaper.jpg);}
+    72.5%{background-image: linear-gradient(rgb(0,0,0,0.618), rgb(0,0,0,0.618)), url(wallpaper.jpg);}
+    75%{background-image: linear-gradient(rgb(0,0,0,0.6465), rgb(0,0,0,0.6465)), url(wallpaper.jpg);}
+    77.5%{background-image: linear-gradient(rgb(0,0,0,0.675), rgb(0,0,0,0.675)), url(wallpaper.jpg);}
+    80%{background-image: linear-gradient(rgb(0,0,0,0.7035), rgb(0,0,0,0.7035)), url(wallpaper.jpg);}
+    82.5%{background-image: linear-gradient(rgb(0,0,0,0.732), rgb(0,0,0,0.732)), url(wallpaper.jpg);}
+    85%{background-image: linear-gradient(rgb(0,0,0,0.7605), rgb(0,0,0,0.7605)), url(wallpaper.jpg);}
+    87.5%{background-image: linear-gradient(rgb(0,0,0,0.789), rgb(0,0,0,0.789)), url(wallpaper.jpg);}
+    90%{background-image: linear-gradient(rgb(0,0,0,0.8175), rgb(0,0,0,0.8175)), url(wallpaper.jpg);}
+    92.5%{background-image: linear-gradient(rgb(0,0,0,0.846), rgb(0,0,0,0.846)), url(wallpaper.jpg);}
+    95%{background-image: linear-gradient(rgb(0,0,0,0.8845), rgb(0,0,0,0.8845)), url(wallpaper.jpg);}
+    97.5%{background-image: linear-gradient(rgb(0,0,0,0.913), rgb(0,0,0,0.913)), url(wallpaper.jpg);}
+    100%{background-image: linear-gradient(rgb(0,0,0,0.9415), rgb(0,0,0,0.9415)), url(wallpaper.jpg);}
+}
+
+@keyframes breathingproject{
+    0% {background-image: linear-gradient(rgb(0,0,0,0.97), rgb(0,0,0,0.97)), url(wallpapers.jpg);}
+    2.5%{background-image: linear-gradient(rgb(0,0,0,0.9415), rgb(0,0,0,0.9415)), url(wallpapers.jpg);}
+    5% {background-image: linear-gradient(rgb(0,0,0,0.913), rgb(0,0,0,0.913)), url(wallpapers.jpg);}
+    7.5%{background-image: linear-gradient(rgb(0,0,0,0.8845), rgb(0,0,0,0.8845)), url(wallpapers.jpg);}
+    10% {background-image: linear-gradient(rgb(0,0,0,0.846), rgb(0,0,0,0.846)), url(wallpapers.jpg);}
+    12.5%{background-image: linear-gradient(rgb(0,0,0,0.8175), rgb(0,0,0,0.8175)), url(wallpapers.jpg);}
+    15%{background-image: linear-gradient(rgb(0,0,0,0.789), rgb(0,0,0,0.789)), url(wallpapers.jpg);}
+    17.5%{background-image: linear-gradient(rgb(0,0,0,0.7605), rgb(0,0,0,0.7605)), url(wallpapers.jpg);}
+    20% {background-image: linear-gradient(rgb(0,0,0,0.732), rgb(0,0,0,0.732)), url(wallpapers.jpg);}
+    22.5%{background-image: linear-gradient(rgb(0,0,0,0.7035), rgb(0,0,0,0.7035)), url(wallpapers.jpg);}
+    25%{background-image: linear-gradient(rgb(0,0,0,0.675), rgb(0,0,0,0.675)), url(wallpapers.jpg);}
+    27.5%{background-image: linear-gradient(rgb(0,0,0,0.6465), rgb(0,0,0,0.6465)), url(wallpapers.jpg);}
+    30% {background-image: linear-gradient(rgb(0,0,0,0.618), rgb(0,0,0,0.618)), url(wallpapers.jpg);}
+    32.5%{background-image: linear-gradient(rgb(0,0,0,0.5895), rgb(0,0,0,0.5895)), url(wallpapers.jpg);}
+    35%{background-image: linear-gradient(rgb(0,0,0,0.561), rgb(0,0,0,0.561)), url(wallpapers.jpg);}
+    37.5%{background-image: linear-gradient(rgb(0,0,0,0.5325), rgb(0,0,0,0.5325)), url(wallpapers.jpg);}
+    40% {background-image: linear-gradient(rgb(0,0,0,0.504), rgb(0,0,0,0.504)), url(wallpapers.jpg);}
+    42.5%{background-image: linear-gradient(rgb(0,0,0,0.4755), rgb(0,0,0,0.4755)), url(wallpapers.jpg);}
+    45%{background-image: linear-gradient(rgb(0,0,0,0.447), rgb(0,0,0,0.447)), url(wallpapers.jpg);}
+    47.5%{background-image: linear-gradient(rgb(0,0,0,0.4185), rgb(0,0,0,0.4185)), url(wallpapers.jpg);}
+    50% {background-image: linear-gradient(rgb(0,0,0,0.39), rgb(0,0,0,0.39)), url(wallpapers.jpg);}
+    52.5%{background-image: linear-gradient(rgb(0,0,0,0.39), rgb(0,0,0,0.39)), url(wallpapers.jpg);}
+    55%{background-image: linear-gradient(rgb(0,0,0,0.4185), rgb(0,0,0,0.4185)), url(wallpapers.jpg);}
+    57.5%{background-image: linear-gradient(rgb(0,0,0,0.447), rgb(0,0,0,0.447)), url(wallpapers.jpg);}
+    60%{background-image: linear-gradient(rgb(0,0,0,0.4755), rgb(0,0,0,0.4755)), url(wallpapers.jpg);}
+    62.5%{background-image: linear-gradient(rgb(0,0,0,0.504), rgb(0,0,0,0.504)), url(wallpapers.jpg);}
+    65%{background-image: linear-gradient(rgb(0,0,0,0.5325), rgb(0,0,0,0.5325)), url(wallpapers.jpg);}
+    67.5%{background-image: linear-gradient(rgb(0,0,0,0.561), rgb(0,0,0,0.561)), url(wallpapers.jpg);}
+    70%{background-image: linear-gradient(rgb(0,0,0,0.5895), rgb(0,0,0,0.5895)), url(wallpapers.jpg);}
+    72.5%{background-image: linear-gradient(rgb(0,0,0,0.618), rgb(0,0,0,0.618)), url(wallpapers.jpg);}
+    75%{background-image: linear-gradient(rgb(0,0,0,0.6465), rgb(0,0,0,0.6465)), url(wallpapers.jpg);}
+    77.5%{background-image: linear-gradient(rgb(0,0,0,0.675), rgb(0,0,0,0.675)), url(wallpapers.jpg);}
+    80%{background-image: linear-gradient(rgb(0,0,0,0.7035), rgb(0,0,0,0.7035)), url(wallpapers.jpg);}
+    82.5%{background-image: linear-gradient(rgb(0,0,0,0.732), rgb(0,0,0,0.732)), url(wallpapers.jpg);}
+    85%{background-image: linear-gradient(rgb(0,0,0,0.7605), rgb(0,0,0,0.7605)), url(wallpapers.jpg);}
+    87.5%{background-image: linear-gradient(rgb(0,0,0,0.789), rgb(0,0,0,0.789)), url(wallpapers.jpg);}
+    90%{background-image: linear-gradient(rgb(0,0,0,0.8175), rgb(0,0,0,0.8175)), url(wallpapers.jpg);}
+    92.5%{background-image: linear-gradient(rgb(0,0,0,0.846), rgb(0,0,0,0.846)), url(wallpapers.jpg);}
+    95%{background-image: linear-gradient(rgb(0,0,0,0.8845), rgb(0,0,0,0.8845)), url(wallpapers.jpg);}
+    97.5%{background-image: linear-gradient(rgb(0,0,0,0.913), rgb(0,0,0,0.913)), url(wallpapers.jpg);}
+    100%{background-image: linear-gradient(rgb(0,0,0,0.9415), rgb(0,0,0,0.9415)), url(wallpapers.jpg);}
+}
+
+#home{
+    animation: breathinghome 4s linear 0s infinite normal;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+
+#home img{
+    width: 280;
+    height: 373.2;
+    border-radius: 50%;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+}
+
+#about div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#project{
+    display: flex;
+    flex-direction: column;
+    animation: breathingproject 4s linear 0s infinite normal;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+
+#carouselExampleControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrap{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 400px;
+}
+
+input{
+    background-color: blue;
+}
+
+#contact .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer{
+    background-color: rgba(33,37,41,1);
+    text-align: center;
+    color: gray;
+    padding: 25px;
+}
+
+@media(max-width:576px){
+    #contact .container{
+        flex-wrap: wrap;
+    }
+}
